@@ -7,6 +7,7 @@ bad_words = ['4r5e','5h1t','5hit','a55','anal','anus','ar5e','arrse','arse','ass
 
 client = discord.Client()
 
+
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
